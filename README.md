@@ -16,7 +16,7 @@ ssh-copy-id -p 13 Alex@192.168.1.142
 3. Connect to the server via the ssh key
 
 ```sh
-ssh -p '13' 'Alex@192.168.1.142'
+ssh Alex@192.168.1.142 -p 13
 ```
 
 4. Verify the ssh key
