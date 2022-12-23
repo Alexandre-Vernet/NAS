@@ -1,10 +1,2 @@
-# Connect to the remote server
-ssh Alex@192.168.1.142 -p 13
-Write-Output "Connected to the remote server"
-
-function Move-Files {
-    # Move all downloaded files to the folder "Films"
-    find /volume1/Download/Transmission/complete/ -mindepth 2 -type f -print -exec mv {}  /volume1/home/Alex/Films  \;
-}
-
-Move-Files
+# Connect to the server and move all downloaded movies to the movies folder
+ssh -t Alex@192.168.1.142 -p 13 'find /volume1/Download/Transmission/complete/ -mindepth 2 -type f -print -exec mv {}  /volume1/home/Alex/Films  \;'
