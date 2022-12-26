@@ -1,4 +1,4 @@
-# NAS
+# NAS-Download-Torrent-Plex
 ![favicon](https://github.com/Alexandre-Vernet/NAS-Download-Torrent-Plex/blob/main/favicon.ico)
 
 ![Screenshot_3](https://user-images.githubusercontent.com/72151831/209315492-d026a83a-21e6-4537-9b07-1d821c351a1e.png)
