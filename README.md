@@ -15,6 +15,6 @@ It gonna :
 Table of content (order by step)
 1. [Plex](https://github.com/Alexandre-Vernet/NAS-Download-Torrent-Plex/wiki/Plex)
 2. [SSH](https://github.com/Alexandre-Vernet/NAS-Download-Torrent-Plex/wiki/SSH)
-3. [Download movies series](https://github.com/Alexandre-Vernet/NAS-Download-Torrent-Plex/wiki/Download-movies---series)
+3. [Download movies series](https://github.com/Alexandre-Vernet/NAS-Download-Torrent-Plex/wiki/Download-movies-&-series)
 4. [Move downloaded movies](https://github.com/Alexandre-Vernet/NAS-Download-Torrent-Plex/wiki/Move-downloaded-movies)
 5. [Cron](https://github.com/Alexandre-Vernet/NAS-Download-Torrent-Plex/wiki/Cron)
