@@ -1,0 +1,16 @@
+services:
+  plex:
+    image: linuxserver/plex
+    container_name: plex
+    network_mode: host
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - VERSION=docker
+      - PLEX_CLAIM=claim-a4DuRzsjsVhmHdexNnau
+    volumes:
+      - /etc/Plex:/config
+      - /etc/Plex/Films:/series
+      - /etc/Plex/Films:/movies
+    restart: unless-stopped
